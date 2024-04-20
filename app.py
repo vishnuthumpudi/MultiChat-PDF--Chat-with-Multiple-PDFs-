@@ -10,6 +10,7 @@ from langchain.llms.openai import OpenAI
 from langchain.llms.huggingface_hub import HuggingFaceHub
 from langchain.chat_models.openai import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
+from InstructorEmbedding import INSTRUCTOR
 from htmlTemplates import css, bot_template, user_template
 from langchain.chains.conversational_retrieval.base import ConversationalRetrievalChain 
 
